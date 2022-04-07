@@ -1,18 +1,18 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Fake IT. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Service;
+namespace HkReuter\ModuleTest\Service;
 
 use Doctrine\DBAL\Query\QueryBuilder;
 use OxidEsales\EshopCommunity\Internal\Framework\Database\QueryBuilderFactoryInterface;
 use OxidEsales\EshopCommunity\Internal\Transition\Utility\ContextInterface;
-use OxidEsales\ModuleTemplate\Model\GreetingTracker;
+use HkReuter\ModuleTest\Model\GreetingTracker;
 use PDO;
 
 /**

@@ -1,16 +1,16 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Fake IT. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Unit\Service;
+namespace HkReuter\ModuleTest\Tests\Unit\Service;
 
-use OxidEsales\ModuleTemplate\Service\ModuleSettings;
-use OxidEsales\ModuleTemplate\Traits\ServiceContainer;
+use HkReuter\ModuleTest\Service\ModuleSettings;
+use HkReuter\ModuleTest\Traits\ServiceContainer;
 use OxidEsales\TestingLibrary\UnitTestCase;
 
 final class ModuleSettingsTest extends UnitTestCase

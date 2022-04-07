@@ -1,18 +1,18 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Fake IT. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Unit\Controller;
+namespace HkReuter\ModuleTest\Tests\Unit\Controller;
 
 use OxidEsales\Eshop\Application\Controller\StartController as EshopStartController;
 use OxidEsales\Eshop\Application\Model\User as EshopModelUser;
-use OxidEsales\ModuleTemplate\Service\GreetingMessage;
-use OxidEsales\ModuleTemplate\Service\ModuleSettings;
+use HkReuter\ModuleTest\Service\GreetingMessage;
+use HkReuter\ModuleTest\Service\ModuleSettings;
 use OxidEsales\TestingLibrary\UnitTestCase;
 
 /*

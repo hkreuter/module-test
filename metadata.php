@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Fake IT. All rights reserved.
  * See LICENSE file for license details.
  */
 
@@ -14,27 +14,27 @@ $sMetadataVersion = '2.1';
  * Module information
  */
 $aModule = [
-    'id'          => 'oe_moduletemplate',
-    'title'       => 'OxidEsales Module Template (OETM)',
+    'id'          => 'hkr_moduletest',
+    'title'       => 'CHANGE MY TITLE',
     'description' =>  '',
     'thumbnail'   => 'out/pictures/logo.png',
     'version'     => '0.0.1',
-    'author'      => 'OXID eSales AG',
+    'author'      => 'Fake IT',
     'url'         => '',
     'email'       => '',
     'extend'      => [
-        \OxidEsales\Eshop\Application\Model\User::class => \OxidEsales\ModuleTemplate\Model\User::class,
-        \OxidEsales\Eshop\Application\Controller\StartController::class => \OxidEsales\ModuleTemplate\Controller\StartController::class
+        \OxidEsales\Eshop\Application\Model\User::class => \HkReuter\ModuleTest\Model\User::class,
+        \OxidEsales\Eshop\Application\Controller\StartController::class => \HkReuter\ModuleTest\Controller\StartController::class
     ],
     'controllers' => [
-        'oetmgreeting' => \OxidEsales\ModuleTemplate\Controller\GreetingController::class
+        'oetmgreeting' => \HkReuter\ModuleTest\Controller\GreetingController::class
     ],
     'templates'   => [
-        'greetingtemplate.tpl' => 'oe/moduletemplate/views/templates/greetingtemplate.tpl',
+        'greetingtemplate.tpl' => 'hkr/moduletest/views/templates/greetingtemplate.tpl',
     ],
     'events' => [
-        'onActivate' => '\OxidEsales\ModuleTemplate\Core\ModuleEvents::onActivate',
-        'onDeactivate' => '\OxidEsales\ModuleTemplate\Core\ModuleEvents::onDeactivate'
+        'onActivate' => '\HkReuter\ModuleTest\Core\ModuleEvents::onActivate',
+        'onDeactivate' => '\HkReuter\ModuleTest\Core\ModuleEvents::onDeactivate'
     ],
     'blocks'      => [
         [

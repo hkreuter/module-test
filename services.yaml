@@ -10,10 +10,10 @@ services:
   OxidEsales\Eshop\Core\Request:
     factory: [ '@OxidEsales\Eshop\Core\Registry', 'getRequest' ]
 
-  OxidEsales\ModuleTemplate\Service\:
+  HkReuter\ModuleTest\Service\:
     resource: 'src/Service/*'
     public: true
 
-  OxidEsales\ModuleTemplate\Subscriber\BeforeModelUpdate:
-    class: OxidEsales\ModuleTemplate\Subscriber\BeforeModelUpdate
+  HkReuter\ModuleTest\Subscriber\BeforeModelUpdate:
+    class: HkReuter\ModuleTest\Subscriber\BeforeModelUpdate
     tags: [ 'kernel.event_subscriber' ]

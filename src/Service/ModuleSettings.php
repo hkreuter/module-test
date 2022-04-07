@@ -1,16 +1,16 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Fake IT. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Service;
+namespace HkReuter\ModuleTest\Service;
 
 use OxidEsales\EshopCommunity\Internal\Framework\Module\Configuration\Bridge\ModuleSettingBridgeInterface;
-use OxidEsales\ModuleTemplate\Core\Module;
+use HkReuter\ModuleTest\Core\Module;
 
 /**
  * @extendable-class

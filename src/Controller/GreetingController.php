@@ -1,23 +1,23 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Fake IT. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Controller;
+namespace HkReuter\ModuleTest\Controller;
 
 use OxidEsales\Eshop\Application\Controller\FrontendController;
 use OxidEsales\Eshop\Application\Model\User as EshopModelUser;
-use OxidEsales\ModuleTemplate\Core\Module as ModuleCore;
-use OxidEsales\ModuleTemplate\Model\GreetingTracker;
-use OxidEsales\ModuleTemplate\Model\User as TemplateModelUser;
-use OxidEsales\ModuleTemplate\Service\GreetingMessage;
-use OxidEsales\ModuleTemplate\Service\ModuleSettings;
-use OxidEsales\ModuleTemplate\Service\Repository;
-use OxidEsales\ModuleTemplate\Traits\ServiceContainer;
+use HkReuter\ModuleTest\Core\Module as ModuleCore;
+use HkReuter\ModuleTest\Model\GreetingTracker;
+use HkReuter\ModuleTest\Model\User as TemplateModelUser;
+use HkReuter\ModuleTest\Service\GreetingMessage;
+use HkReuter\ModuleTest\Service\ModuleSettings;
+use HkReuter\ModuleTest\Service\Repository;
+use HkReuter\ModuleTest\Traits\ServiceContainer;
 
 /**
  * @extendable-class

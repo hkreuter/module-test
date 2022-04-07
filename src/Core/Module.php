@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Fake IT. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Core;
+namespace HkReuter\ModuleTest\Core;
 
 final class Module
 {
-    public const MODULE_ID = 'oe_moduletemplate';
+    public const MODULE_ID = 'hkr_moduletest';
 
     public const OETM_GREETING_TEMPLATE_VARNAME = 'oetm_greeting';
 

@@ -1,19 +1,19 @@
 <?php
 
 /**
- * Copyright © OXID eSales AG. All rights reserved.
+ * Copyright © Fake IT. All rights reserved.
  * See LICENSE file for license details.
  */
 
 declare(strict_types=1);
 
-namespace OxidEsales\ModuleTemplate\Tests\Unit\Subscriber;
+namespace HkReuter\ModuleTest\Tests\Unit\Subscriber;
 
 use OxidEsales\Eshop\Application\Model\User as EshopModelUser;
 use OxidEsales\EshopCommunity\Internal\Transition\ShopEvents\BeforeModelUpdateEvent;
-use OxidEsales\ModuleTemplate\Model\GreetingTracker;
-use OxidEsales\ModuleTemplate\Service\Tracker;
-use OxidEsales\ModuleTemplate\Subscriber\BeforeModelUpdate;
+use HkReuter\ModuleTest\Model\GreetingTracker;
+use HkReuter\ModuleTest\Service\Tracker;
+use HkReuter\ModuleTest\Subscriber\BeforeModelUpdate;
 use OxidEsales\TestingLibrary\UnitTestCase;
 
 final class BeforeModelUpdateTest extends UnitTestCase
